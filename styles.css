@@ -33,3 +33,13 @@ td {
     border: 1px solid black;
     height: 25px;
 }
+
+footer {
+    font-size: 10px;
+    font-family: arial;
+}
+
+.profile_pic {
+    border-radius: 8px;
+    
+}
