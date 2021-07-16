@@ -1,5 +1,5 @@
 # HTML & CSS Cheat Sheet
-## Made for the codecademy FSE Course
+## Made For The Codecademy FSE Course
 
 ### Technologies Used:
 * HTML
