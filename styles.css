@@ -1,11 +1,71 @@
 .main_header {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+}
+
+.main_header::before {
+    content: "";
+    background-image: url('./images/web_design.jpg');
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.10;
+}
+
+h1 {
+    position: relative;
+    color: black;  
     text-align: center;
     font-family: cursive;
+    font-size: 600%;
+    margin: auto;
+}
+
+.HTML_info {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.HTML_info::before {
+    content: "";
+    background-image: url("./images/HTML.jpeg");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.10;
+}
+
+.CSS_info {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.CSS_info::before {
+    content: "";
+    background-image: url("./images/CSS.png");
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.10;  
 }
 
 .theme_header {
     font-family: cursive;
     color: blue;
+    margin-left: 0px !important;
 }
 
 .section_header {
@@ -35,11 +95,15 @@ td {
 }
 
 footer {
-    font-size: 10px;
+    font-size: 15px;
     font-family: arial;
 }
 
-.profile_pic {
+#profile_pic {
     border-radius: 8px;
-    
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    text-align: left;
 }
